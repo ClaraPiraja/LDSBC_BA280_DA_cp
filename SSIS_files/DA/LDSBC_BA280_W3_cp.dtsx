@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="LDSBC_BA280_W3_cp"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{A14527DC-0CB0-4734-9B58-38134CA8847A}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{839D65DF-CA6B-49D8-A0A5-B26B9E748379}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1153,13 +1153,17 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="153,42"
-          Id="Package\Avocado Data Analysis\Truncate target"
-          TopLeft="5.49999999999997,5.5" />
+          Size="172,42"
+          Id="Package\Avocado Data Analysis\Data Profiling Task"
+          TopLeft="210,107.5" />
         <NodeLayout
           Size="135,42"
           Id="Package\Avocado Data Analysis\Load target"
           TopLeft="14.5,107.5" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\Avocado Data Analysis\Truncate target"
+          TopLeft="5.49999999999997,5.5" />
         <EdgeLayout
           Id="Package\Avocado Data Analysis.PrecedenceConstraints[Constraint]"
           TopLeft="82,47.5">
@@ -1182,14 +1186,10 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Avocado Data Analysis\Data Profiling Task"
-          TopLeft="210,107.5" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="388,204"
+          PanelSize="388,205"
           Size="388,248"
           Id="Package\Avocado Data Analysis"
           TopLeft="5.50000000000003,5.5" />
@@ -1202,13 +1202,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="143,42"
-          Id="Package\Avocado Data Analysis\Load target\avocado_csv"
-          TopLeft="6.50000000000001,5.5" />
-        <NodeLayout
           Size="145,42"
           Id="Package\Avocado Data Analysis\Load target\dbo_avocado"
           TopLeft="5.50000000000001,107.5" />
+        <NodeLayout
+          Size="143,42"
+          Id="Package\Avocado Data Analysis\Load target\avocado_csv"
+          TopLeft="6.50000000000001,5.5" />
         <EdgeLayout
           Id="Package\Avocado Data Analysis\Load target.Paths[Flat File Source Output]"
           TopLeft="78,47.5">

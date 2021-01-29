@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="LDSBC_BA280_W3_cp"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{839D65DF-CA6B-49D8-A0A5-B26B9E748379}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{BBD7E880-13D0-4241-BECD-C05AF6C9D59E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -171,7 +171,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[avocado_data_profile.xml]"
       DTS:CreationName="FILE"
-      DTS:DTSID="{E1D437C2-BFC8-4421-8064-6EA9893AE1B5}"
+      DTS:DTSID="{AFDA5087-F177-4A45-BDDF-5E4B23DCDB11}"
       DTS:ObjectName="avocado_data_profile.xml">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -221,7 +221,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Data Profiling Task"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2019; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -1119,7 +1119,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate target"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData

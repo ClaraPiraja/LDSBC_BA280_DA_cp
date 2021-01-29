@@ -5,7 +5,7 @@
     <DtsDataSource ID="{F1EDE29E-469E-4B68-8CC7-402E210919D3}" Name="avocado.csv">
       <DtsConnectionManagerID>avocado.csv</DtsConnectionManagerID>
     </DtsDataSource>
-    <DtsDataSource ID="{E1D437C2-BFC8-4421-8064-6EA9893AE1B5}" Name="avocado_data_profile.xml">
+    <DtsDataSource ID="{AFDA5087-F177-4A45-BDDF-5E4B23DCDB11}" Name="avocado_data_profile.xml">
       <DtsConnectionManagerID>avocado_data_profile.xml</DtsConnectionManagerID>
     </DtsDataSource>
     <DtsDataSource ID="{1A9CCE76-3B6B-4AD7-9C1C-861DBA869CE1}" Name="LDSBC_BA280_DA_ado_net">
@@ -3036,11 +3036,11 @@
         <TopRegexPatterns>
           <PatternDistributionItem>
             <RegexText>CONVENTIONAL</RegexText>
-            <Frequency>50</Frequency>
+            <Frequency>49</Frequency>
           </PatternDistributionItem>
           <PatternDistributionItem>
             <RegexText>ORGANIC</RegexText>
-            <Frequency>50</Frequency>
+            <Frequency>51</Frequency>
           </PatternDistributionItem>
         </TopRegexPatterns>
       </ColumnPatternProfile>
